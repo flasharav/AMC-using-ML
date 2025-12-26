@@ -73,10 +73,10 @@ python3 -m venv amc_env
 source amc_env/bin/activate
 ```
 
-#Install dependencies:
+# Install dependencies:
 pip install -r requirements.txt
 
-##Run the training script:
+# Run the training script:
 python -m src.train.train
 
 # High CPU utilization during training is expected

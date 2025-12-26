@@ -73,25 +73,25 @@ python3 -m venv amc_env
 source amc_env/bin/activate
 ```
 
-##Install dependencies:
+#Install dependencies:
 pip install -r requirements.txt
 
 ##Run the training script:
 python -m src.train.train
 
-## High CPU utilization during training is expected
+# High CPU utilization during training is expected
 
-## Results
+# Results
 The CNN successfully trains on raw IQ samples
 Epoch-wise loss decreases, indicating effective learning
 The model demonstrates feasibility of deep learning–based AMC
 
-## Applications
+# Applications
 Cognitive Radio Systems
 Software Defined Radio (SDR)
 Spectrum Monitoring
 Intelligent Wireless Receivers
 Defence and Secure Communication
 
-##Author
+#Author
 -Arav Upadhyay
